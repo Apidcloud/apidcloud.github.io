@@ -1,0 +1,9 @@
+[submodule "Leaprezi"]
+	path = Leaprezi
+	url = git@github.com:Apidcloud/Leaprezi.git
+[submodule "leapreel"]
+	path = leapreel
+	url = git@github.com:Apidcloud/leapreel.git
+[submodule "LeapStreet"]
+	path = LeapStreet
+	url = git@github.com:Apidcloud/LeapStreet.git
