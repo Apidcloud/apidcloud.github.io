@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+		<meta charset="utf-8">
+		<title>Apidcloud's Corner - Sniper's Training</title>
+		<meta name="description" content="">
+		<!--<link rel="shortcut icon" href="img/favicon.png">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- plugins' css -->
+		<link rel="stylesheet" href="css/plugins.css">
+		<!-- google fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300%7cPoppins:400,300,500,700,600' rel='stylesheet' type='text/css'>
+		<!-- main css file -->
+		<link rel="stylesheet" href="css/main.css">
+		<!-- modernizr -->
+		<script src="js/lib/modernizr-2.6.2.min.js"></script>
+	<body>
+		<!-- MAIN_WRAPPER -->
+		<div class="main-wrapper animsition" style="animation-duration: 800ms; opacity: 1;">
+
+			<!-- HEADER -->
+			<header id="header">
+				<!-- LOGO -->
+				<a href="https://apidcloud.github.io" class="logo">
+					Apidcloud's Corner
+				</a>
+				<!-- MOBILE MENU ICON -->
+				<!-- <a href="https://apidcloud.github.io#" class="mob-menu"><i class="fa fa-bars"></i></a> -->
+
+				<div class="mob-social">
+                    <a href="https://apidcloud.github.io" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="fa fa-home" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/apidcloud" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="https://github.com/apidcloud" data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+				</div>
+
+				<!-- MENU -->
+				<nav>
+					
+					<ul class="main-menu">
+						<li>
+                            <a href="https://apidcloud.github.io">home</a>
+                            <!-- 
+							<ul>
+								<li><a href="demo/entry-1.html">entry 1</a></li>
+								<li><a href="demo/entry-2.html">entry 2</a></li>
+								<li>
+									<a href="demo/inside-1.html" class="dropdown">inside-1</a>
+									<ul>
+										<li><a href="demo/nested-1.html">nested 1</a></li>
+										<li><a href="demo/nested-2.html">nested 2</a></li>
+									</ul>
+								</li>
+								<li><a href="demo/entry-3.html">entry 3</a></li>
+							</ul>-->
+                        </li>
+                        <!-- 
+						<li>
+							<a href="demo/menu-2.html">menu 2</a>
+							<ul>
+								<li><a href="demo/entry-2.1.html">entry 1</a></li>
+								<li><a href="demo/entry-2.2.html">entry 2</a></li>
+							</ul>
+						</li>-->
+					</ul>
+					<!-- Header Social Area -->
+					<div class="main-menu">
+						<div class="header-social-area">
+							<a href="https://twitter.com/apidcloud" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="https://github.com/apidcloud" data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</nav> 
+				
+			</header>
+			<!-- /HEADER -->
+			
+            <!-- HERO -->
+			<div class="container fullwidth pt140 pb140" data-background="img/projects/sniper/setup.jpg">
+				<div class="pt140 pb140">
+
+					<div class="entrance">
+						<h1 class="title">Sniper Training</h1>
+					</div>
+					
+				</div>
+			</div>
+			<!-- /HERO -->
+			
+			<!-- ABOUT -->
+			<div class="bg-grey pt120 pb120">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-md-offset-2">
+							<h3 class="title">About</h3>
+							<p class="separator-left"></p>
+						</div>
+						<div class="col-md-5">
+							<p align="left">This was a project for the Virtual Worlds class during my master's in Computer Science. My group and I developed a Sniper Training immersive environment by combining different devices and technologies.
+                            The experience included a plastic gun, Oculus Rift DK2, 3RD Space Vest to imitate the recoil of the gun and bullets taken, and 3D Sound using noise cancelling headphones.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /ABOUT -->
+            
+            <!-- SPLIT BLOCK -->
+			<div class="container fullwidth equal-height-cols">
+                <div class="row">
+                    <div class="col-md-6" data-background="img/projects/sniper/gunWithArduino2.jpg"></div>
+                    <div class="col-md-6 p100 pt140 pb140">
+                        <h3 class="title title-tooltip">Plastic Gun and a Sprinkler</h3>
+                        <p align="left">The physical fire trigger of the plastic gun was connected to an Arduino, and a smartphone was placed on top to track (through its sensors and OSC communication--same could be achieved with IMU sensors connected to Arduino) and map the physical movements of the gun in the virtual environment (6DOF).</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /SPLIT BLOCK -->
+
+            <!-- ABOUT -->
+			<!-- SPLIT BLOCK -->
+			<div class="container fullwidth equal-height-cols">
+                    <div class="row">
+                        <div class="col-md-6 col-md-push-6" data-background="img/projects/sniper/setup2.jpg"></div>
+                        <div class="col-md-6 col-md-pull-6 p100 pt140 pb140">
+                            <h3 class="title title-tooltip">Scope View</h3>
+                            <p align="left">Finally, despite being a bit hacky, it was also possible to enter the zoomed in (scope view) view using the Oculus tracking camera (based on its proximity). A more robust alternative would be to use IR LEDs instead.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /SPLIT BLOCK -->	
+                <!-- /ABOUT -->
+
+			<!-- PORTFOLIO -->
+			<!-- For item sizes use classes .wide and .tall -->
+			<div class="container text-center">
+
+                <h3 class="title mt90">Gallery</h3>
+                <p class="separator mb60"></p>
+
+                <div class="grid gallery mt20 mb90" data-gutter="5" data-columns="3">
+
+                        <div class="grid-item">
+                            <a href="img/projects/sniper/gunWithArduino.jpg" data-background="img/projects/sniper/gunWithArduino.jpg" data-rel="lightcase:gal" title="Plastic Gun connected to Arduino"></a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="img/projects/sniper/setup.jpg" data-background="img/projects/sniper/setup.jpg" data-rel="lightcase:gal" title="Full Sniper Training Setup"></a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="img/projects/sniper/setup2.jpg" data-background="img/projects/sniper/setup2.jpg" data-rel="lightcase:gal" title="Full Sniper Training Setup Side view"></a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="img/projects/sniper/gun1.jpg" data-background="img/projects/sniper/gun1.jpg" data-rel="lightcase:gal" title="Plastic Gun Trigger Switch"></a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="img/projects/sniper/gun2.jpg" data-background="img/projects/sniper/gun2.jpg" data-rel="lightcase:gal" title="Plastic Gun Setup"></a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="img/projects/sniper/sprinkler.jpg" data-background="img/projects/sniper/sprinkler.jpg" data-rel="lightcase:gal" title="Plastic Gun stand (a sprinkler)"></a>
+                        </div>
+
+                </div>		
+
+            </div>
+			<!-- /PORTFOLIO -->
+		
+			<!-- FOOTER -->
+			<footer id="footer">
+				
+				<!-- FOOTER LINKS -->
+				<div class="footer-links">
+					&copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Based on template made by <a href="http://achtungthemes.com" target="_blank">AchtungThemes</a>.
+				</div>
+
+			</footer>
+			<!-- /FOOTER -->
+
+		</div>	
+		<!-- /MAIN-WRAPPER -->
+		
+		<!-- js -->
+		<script src="js/lib/jquery.min.js"></script>
+		<script src="js/lib/scripts.js"></script>
+		<!-- main js -->
+		<script src="js/main.js"></script>
+
+</body></html>
