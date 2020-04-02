@@ -53,6 +53,11 @@ body {
 	background: #fff;
 }
 
+.asyncImage {
+    background-size: cover;
+    background-position: center center;
+}
+
 ::selection {
 	background: #000;
 	color: #fff;
