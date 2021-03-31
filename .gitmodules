@@ -7,3 +7,6 @@
 [submodule "LeapStreet"]
 	path = LeapStreet
 	url = https://github.com/Apidcloud/LeapStreet
+[submodule "mandelbrot-orbit"]
+	path = mandelbrot-orbit
+	url = https://github.com/Apidcloud/mandelbrot-orbit
