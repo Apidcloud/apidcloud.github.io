@@ -13,3 +13,6 @@
 [submodule "logistic-map"]
 	path = logistic-map
 	url = https://github.com/Apidcloud/logistic-map
+[submodule "chaos-game"]
+	path = chaos-game
+	url = https://github.com/Apidcloud/chaos-game
