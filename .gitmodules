@@ -10,3 +10,6 @@
 [submodule "mandelbrot-orbit"]
 	path = mandelbrot-orbit
 	url = https://github.com/Apidcloud/mandelbrot-orbit
+[submodule "logistic-map"]
+	path = logistic-map
+	url = https://github.com/Apidcloud/logistic-map
