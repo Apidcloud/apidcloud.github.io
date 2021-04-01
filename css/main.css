@@ -895,6 +895,19 @@ blockquote footer{
 	.mob-social{
 		display: block;
 	}
+
+	/* Be sure to align the text (logo) to the right when in smaller screens */
+	#header{
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		background-color: #fff;
+		z-index: 999;
+		text-align: right;
+		padding-right: 18px;
+	}
+
 	#header .logo{
 		margin-top: 17px;
 		margin-bottom: 17px;
@@ -945,9 +958,6 @@ blockquote footer{
 		display: inline-block !important;
 	}
 }
-
-
-
 
 /* 04. SLIDESHOWS
 -----------------------*/
