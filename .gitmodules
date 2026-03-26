@@ -16,3 +16,6 @@
 [submodule "chaos-game"]
 	path = chaos-game
 	url = https://github.com/Apidcloud/chaos-game
+[submodule "blurrier"]
+	path = blurrier
+	url = https://github.com/apidcloud/blurrier
