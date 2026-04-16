@@ -19,3 +19,6 @@
 [submodule "blurrier"]
 	path = blurrier
 	url = https://github.com/apidcloud/blurrier
+[submodule "antiphase"]
+	path = antiphase
+	url = https://github.com/Apidcloud/antiphase

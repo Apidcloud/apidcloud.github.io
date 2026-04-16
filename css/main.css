@@ -1260,6 +1260,36 @@ body.slider-expanded .horizontal-slider.video-slider .swiper-slide .expand{
 .portfolio .grid-item a .hover p{
 	font-size: 13px;
 }
+.featured-demos{
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	padding: 5px 0;
+}
+.featured-demos .grid-item{
+	width: 33.333%;
+	position: relative;
+	overflow: hidden;
+}
+.featured-demos .grid-item-inner{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.featured-demo-ratio{
+	padding-bottom: 80%;
+}
+@media (max-width: 768px) {
+	.featured-demos{
+		flex-direction: column;
+		align-items: center;
+	}
+	.featured-demos .grid-item{
+		width: 100%;
+	}
+}
 
 
 /*JUSTIFIED GALLERY*/
